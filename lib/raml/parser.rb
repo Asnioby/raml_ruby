@@ -13,6 +13,10 @@ module Raml
         Root.new data
       end
 
+      def parse_hash(hash)
+        Root.new hash
+      end
+
       private
       
       def register_include_tag

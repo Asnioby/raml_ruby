@@ -61,6 +61,10 @@ module Raml
     Raml::Parser.parse raml
   end
 
+  def self.parse_hash(raml)
+    Raml::Parser.parse_hash raml
+  end
+
   # Parses RAML from a file.
   #
   # @param filepath [String] the file path of the file containing RAML.
